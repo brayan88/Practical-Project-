@@ -28,7 +28,7 @@ class UserController {
             showPopup('error',"Passwords do not match");
             return;
         }
-        delete data['confirmPassword'];
+        delete data['passConfirm'];
 
         this._requester.post(this._baseServiceUrl,data,function success(data) {
             showPopup('success',"You have successfully registered.");

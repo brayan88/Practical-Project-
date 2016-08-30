@@ -48,7 +48,7 @@ class UserView {
                     let passConfirm = $('#pass-confirm').val();
                     let data = {
                         username: username,
-                        fullname:fullname,
+                        fullname: fullname,
                         password: password,
                         passConfirm : passConfirm
                     };
