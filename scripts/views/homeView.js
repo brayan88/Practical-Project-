@@ -6,8 +6,8 @@ class HomeView {
        showGuestPage(sideBarData,mainData) {
            let _that = this;
            $.get('templates/welcome-guest.html', function (template) {
-               let rendarredWrapper = Mustache.render(template, null);
-               $(_that._wrapperSelector).html(rendarredWrapper);
+               let renderredWrapper = Mustache.render(template, null);
+               $(_that._wrapperSelector).html(renderredWrapper);
                $.get('templates/recent-posts.html', function (template) {
                    let recentPosts = {
                        recentPosts: sideBarData

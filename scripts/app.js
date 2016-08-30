@@ -20,9 +20,7 @@
     // Create HomeView, HomeController, UserView, UserController, PostView and PostController
     let homeView = new HomeView(selector,mainContentSelector);
     let homeController = new HomeController(homeView,requester,baseUrl,appKey);
-    homeController.showGuestPage();
     
-
     let userView = new UserView(selector,mainContentSelector);
     let userController = new UserController(userView,requester,baseUrl,appKey);
     
@@ -34,11 +32,11 @@
 
     onRoute("#/", function () {
         // Check if user is logged in and if its not show the guest page, otherwise show the user page...
-        if (!authService.isLoggedIn()){
-            homeController.showGuestPage();
+        if (authService.isLoggedIn()){
+            homeController.showUserPage();
         }
         else{
-            homeController.showUserPage();
+            homeController.showGuestPage();
         }
     });
 

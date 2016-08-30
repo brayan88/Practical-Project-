@@ -8,8 +8,15 @@ class UserView {
     }
     showLoginPage(isLoggedIn){
         let _that = this;
-        let requesTemplate= isLoggedIn ? 'templates/form-user.html':'templates/form-guest.html';
-        $.get(requesTemplate,function (template) {
+        let templateUrl;
+        if (isLoggedIn){
+            templateUrl="templates/form-user.html"
+        }
+        else{
+            templateUrl="templates/form-guest.html"
+        }
+        
+        $.get(templateUrl,function (template) {
             let renderedTemplate = Mustache.render(template,null);
             $(_that._wrapperSelector).html(renderedTemplate);
 
@@ -25,14 +32,14 @@ class UserView {
                         password: password
                     };
                     triggerEvent('login',data)
-                })
+                });
             })
             
         })
     }
     showRegisterPage(isLoggedIn){
         let _that = this;
-        let requesTemplate= isLoggedIn ? 'templates/form-guest.html':'templates/form-user.html';
+        let requesTemplate= isLoggedIn ? 'templates/form-user.html':'templates/form-guest.html';
         $.get(requesTemplate,function (template) {
             let renderedTemplate = Mustache.render(template,null);
             $(_that._wrapperSelector).html(renderedTemplate);

@@ -39,17 +39,22 @@ class UserController {
     }
     login(data){
         let requestUrl = this._baseServiceUrl+"login";
-        this._requester.post(requestUrl,data,function successCallback(response) {
-            showPopup('success',"You have successfully logged in");
-            redirectUrl("#/")
-        },function errorCallback(response) {
+        this._requester.post(requestUrl,data,
+            function success(response) {
+                sessionStorage.setItem('username',response.username);
+                sessionStorage.setItem('_authToken',response._kmd.authtoken);
+                sessionStorage.setItem('fullname',response.fullname);
+
+                showPopup('success',"You have successfully logged in");
+                redirectUrl('#/')
+        },function error(response) {
             showPopup('error',"Login failed !")
         });
 
     }
     logout(){
         sessionStorage.clear();
-        redirect("#/")
+        redirectUrl("#/")
     }
     
 }
