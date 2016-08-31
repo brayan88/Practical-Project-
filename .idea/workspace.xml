@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c8ade65-e1c5-4d53-933f-f68f4f8a05ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/app.js" afterPath="$PROJECT_DIR$/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/userController.js" afterPath="$PROJECT_DIR$/scripts/controllers/userController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/views/homeView.js" afterPath="$PROJECT_DIR$/scripts/views/homeView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/views/userView.js" afterPath="$PROJECT_DIR$/scripts/views/userView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/views/postView.js" afterPath="$PROJECT_DIR$/scripts/views/postView.js" />
     </list>
     <ignored path="BlogWithCustomFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postView.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="postController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/controllers/postController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="97" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/views/postView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+            <state relative-caret-position="221">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="n#!!doc;n#PostView#0" expanded="false" />
               </folding>
@@ -91,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -118,16 +124,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/controllers/homeController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -180,12 +176,12 @@
         <option value="$PROJECT_DIR$/scripts/libs/framework.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/scripts/views/postView.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/postController.js" />
         <option value="$PROJECT_DIR$/scripts/app.js" />
         <option value="$PROJECT_DIR$/scripts/views/userView.js" />
         <option value="$PROJECT_DIR$/scripts/views/homeView.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/userController.js" />
+        <option value="$PROJECT_DIR$/scripts/views/postView.js" />
       </list>
     </option>
   </component>
@@ -468,16 +464,16 @@
       <workItem from="1472551617039" duration="18055000" />
       <workItem from="1472573243328" duration="4610000" />
       <workItem from="1472577988028" duration="1102000" />
-      <workItem from="1472584250713" duration="6218000" />
+      <workItem from="1472584250713" duration="7661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132507000" />
+    <option name="totallyTimeSpent" value="133950000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -681,14 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/postController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="97" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -753,16 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/views/postView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-          <folding>
-            <element signature="n#!!doc;n#PostView#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/views/userView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -770,14 +748,6 @@
           <folding>
             <element signature="n#!!doc;n#UserView#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/views/homeView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,6 +765,32 @@
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/postController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="97" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/views/homeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/views/postView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc;n#PostView#0" expanded="false" />
           </folding>
         </state>
       </provider>

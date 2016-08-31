@@ -7,10 +7,10 @@ class PostView {
         this._mainContentSelector = mainContentSelector;
     }
     showCreatePostPage(data,isLoggedIn){
-        let _that =this;
-        let templateUr;
+        let _that = this;
+        let templateUrl;
 
-        if (isLoggedin) {
+        if (isLoggedIn) {
             templateUrl = "templates/form-user.html";
         }
         else {
@@ -28,6 +28,7 @@ class PostView {
                 $('#author').val(data.fullname);
 
                 $('#create-new-post-request-button').on('click',function (ev) {
+                    console.log("vutre sum");
                     let title = $('#title').val();
                     let author = $('#author').val();
                     let content = $('#content').val();
